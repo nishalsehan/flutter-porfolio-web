@@ -26,9 +26,6 @@
   <meta name="apple-mobile-web-app-title" content="portfolio_site">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <script src="https://unpkg.com/canvaskit-wasm@0.33.0/bin/canvaskit.js"></script>
-  <link rel="preload" href="https://unpkg.com/canvaskit-wasm@0.33.0/bin/canvaskit.wasm" as="fetch" crossOrigin="anonymous">
-
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
@@ -43,13 +40,6 @@
   <script src="flutter.js" defer></script>
 </head>
 <body>
-  <script>
-    window.onload = (event) => {
-      console.log('page is fully loaded');
-<!--      var element = document.getElementById("loader");-->
-<!--      element.parentNode.removeChild(element);-->
-    };
-  </script>
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
